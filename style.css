@@ -12,14 +12,23 @@ body {
   justify-content: center;
 }
 
-a {
-  color: #e0e0e0;
+.tilde {
+  color: #ffffff;
+  font-family: monospace;
+  font-size: 6rem;
+}
+
+.github {
+  position: fixed;
+  bottom: 1.5rem;
+  right: 1.5rem;
+  color: #888;
   text-decoration: none;
   font-family: monospace;
-  font-size: 2rem;
+  font-size: 0.85rem;
   transition: color 0.2s;
 }
 
-a:hover {
+.github:hover {
   color: #ffffff;
 }
